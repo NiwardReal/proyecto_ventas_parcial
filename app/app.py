@@ -6,7 +6,7 @@ import joblib
 import os
 
 # Titulo de la App
-st.title("Tablero de Ventas y Predicciones")
+st.title("Tablero de ventas y predicciones")
 st.markdown("---")
 
 # 1: CARGA DE DATOS

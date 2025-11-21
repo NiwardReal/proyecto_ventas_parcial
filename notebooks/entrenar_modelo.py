@@ -34,7 +34,7 @@ modelo.fit(X_train, y_train)
 
 # 4. Evaluacion
 score = r2_score(y_test, modelo.predict(X_test))
-print(f"📊 Precisión del modelo (R2): {score:.2f}")
+print(f"Precisión del modelo (R2): {score:.2f}")
 
 # 5. Guardar el modelo
 ruta_modelo = os.path.join(os.path.dirname(__file__), '../models/modelo_ventas.pkl')
